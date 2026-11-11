@@ -1,0 +1,33 @@
+$main-color: #851594;
+$second-color: #dd71cf;
+*{
+    padding:0px;
+    margin:0px;
+}
+header, footer{
+    background-color: $main-color;
+    justify-content: space-between;
+}
+.display{
+    display:flex;
+}
+.text{
+    color:$second-color;
+    font-size: 2em;
+    padding:10px;
+}
+.text1{
+    color:$main-color;
+    font-size: 2em;
+    padding:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+section{
+    background-color: $second-color;
+    height:60vh
+}
+img{
+    width:70%;
+    height:auto;
+}
